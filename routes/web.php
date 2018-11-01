@@ -14,7 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::group(['middleware' => 'auth', 'prefix' => 'admin'], function() {
-    \Aschmelyun\Larametrics\Larametrics::routes();
-});

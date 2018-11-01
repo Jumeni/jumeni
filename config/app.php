@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Jumeni'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://jumeni.co'),
 
     /*
     |--------------------------------------------------------------------------
@@ -150,8 +150,10 @@ return [
         /*
          * Package Service Providers...
          */
-        Aschmelyun\Larametrics\LarametricsServiceProvider::class,
-
+        KgBot\LaravelLocalization\LaravelLocalizationServiceProvider::class,
+        Mpociot\Couchbase\CouchbaseServiceProvider::class,
+        SMartins\PassportMultiauth\Providers\MultiauthServiceProvider::class,
+        Pedmindset\Couchbase\CouchbasePassportServiceProvider::class,
 
         /*
          * Application Service Providers...

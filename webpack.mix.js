@@ -12,4 +12,10 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+   .js('resources/js/waste_management/app.js', 'public/js/waste_management')
+   .js('resources/js/delivery/app.js', 'public/js/delivery')
+   .sass('resources/sass/app.scss', 'public/css')
+   .sass('resources/sass/waste_management/app.scss', 'public/css/waste_management')
+   .sass('resources/sass/delivery/app.scss', 'public/css/delivery');
+
+

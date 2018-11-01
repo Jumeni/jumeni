@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'couchbase'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,6 +52,18 @@ return [
             'prefix' => '',
             'strict' => true,
             'engine' => null,
+        ],
+
+        'couchbase' => [
+            'driver'   => 'couchbase',
+            'host'     => env('DB_HOST', 'localhost'),
+            'port'     => env('DB_PORT', 8091),
+            'bucket'   => env('DB_BUCKET', 'waste_management'),
+            'username' => env('DB_USERNAME', 'Administrator'),
+            'password' => env('DB_PASSOWRD', '123456'),
+            'n1ql_hosts' => [
+                'http://'.env('DB_HOST', 'localhost').':8093'
+            ]
         ],
 
         'pgsql' => [
@@ -121,6 +133,15 @@ return [
             'port' => env('REDIS_PORT', 6379),
             'database' => env('REDIS_CACHE_DB', 1),
         ],
+
+        'session' => [
+            'host' => env('REDIS_HOST', '127.0.0.1'),
+            'password' => env('REDIS_PASSWORD', null),
+            'port' => env('REDIS_PORT', 6379),
+            'database' => env('REDIS_SESSION_DB', 2),
+        ],
+
+
 
     ],
 

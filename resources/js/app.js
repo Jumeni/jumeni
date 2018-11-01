@@ -15,8 +15,15 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+import Lang from 'lang.js';
+
+const default_locale = window.default_language;
+const fallback_locale = window.fallback_locale;
+const messages = window.messages;
+
+Vue.prototype.trans = new Lang( { messages, locale: default_locale, fallback: fallback_locale } );
 
 const app = new Vue({
     el: '#app'
 });
+
