@@ -58,9 +58,9 @@ return [
             'driver'   => 'couchbase',
             'host'     => env('DB_HOST', 'localhost'),
             'port'     => env('DB_PORT', 8091),
-            'bucket'   => env('DB_BUCKET', 'waste_management'),
-            'username' => env('DB_USERNAME', 'Administrator'),
-            'password' => env('DB_PASSOWRD', '123456'),
+            'bucket'   => 'waste_management_dev',
+            'username' => 'jumeni',
+            'password' => 'admin_access.CP#@?v23B*X73',
             'n1ql_hosts' => [
                 'http://'.env('DB_HOST', 'localhost').':8093'
             ]
