@@ -151,9 +151,7 @@ return [
          * Package Service Providers...
          */
         KgBot\LaravelLocalization\LaravelLocalizationServiceProvider::class,
-        Mpociot\Couchbase\CouchbaseServiceProvider::class,
         SMartins\PassportMultiauth\Providers\MultiauthServiceProvider::class,
-        Pedmindset\Couchbase\CouchbasePassportServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
 
         /*
@@ -215,6 +213,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+        'Uuid' => Webpatser\Uuid\Uuid::class,
+
     ],
 
 ];
