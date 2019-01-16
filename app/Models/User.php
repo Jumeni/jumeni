@@ -30,6 +30,13 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
+    /**
+     * The attributes that are cast to date object.
+     *
+     * @var array
+     */
+    protected $dates = ['deleted_at', 'created_at', 'updated_at'];
+
     public function company()
     {
         return $this->hasOne(Company::class);

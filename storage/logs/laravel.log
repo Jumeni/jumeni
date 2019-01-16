@@ -1,0 +1,24 @@
+[2019-01-16 15:19:39] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:167)
+[stacktrace]
+#0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(101): Illuminate\\Log\\LogManager->resolve(NULL)
+#1 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(89): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(488): Illuminate\\Log\\LogManager->driver()
+#3 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(114): Illuminate\\Log\\LogManager->error('syntax error, u...', Array)
+#4 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\app\\Exceptions\\Handler.php(37): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#5 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(314): App\\Exceptions\\Handler->report(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#6 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(122): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Symfony\\Component\\Debug\\Exception\\FatalThrowableError))
+#7 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\server.php(21): require_once('C:\\\\Users\\\\MERSIE...')
+#9 {main}
+"} 
+[2019-01-16 15:19:39] laravel.ERROR: syntax error, unexpected '<<' (T_SL), expecting ']' {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected '<<' (T_SL), expecting ']' at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\config\\app.php:216)
+[stacktrace]
+#0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#1 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(206): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#2 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(162): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#3 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#4 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#5 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\server.php(21): require_once('C:\\\\Users\\\\MERSIE...')
+#7 {main}
+"} 

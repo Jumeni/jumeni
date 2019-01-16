@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/pay/momo', 'Payment\PaymentController@momo_pay');
+Route::post('/pay/card', 'Payment\PaymentController@card_pay');
+Route::get('/payswitch/callback', 'Payment\PaymentController@callbaack');
+

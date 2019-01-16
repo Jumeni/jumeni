@@ -25,6 +25,9 @@ class CreatePaymentsTable extends Migration
             $table->foreign('user_id')->references('id')->on('users');
             $table->string('app')->nullable();
             $table->string('doneBy')->nullable();
+            $table->string('customer_email')->nullable();
+            $table->string('currency')->nullable();
+            $table->bigInteger('customer_phone')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

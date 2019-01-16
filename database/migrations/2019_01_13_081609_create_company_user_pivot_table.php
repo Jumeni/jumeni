@@ -13,12 +13,11 @@ class CreateCompanyUserPivotTable extends Migration
     public function up()
     {
         Schema::create('company_user', function (Blueprint $table) {
-            $table->primary('id');
             $table->timestamps();
             $table->integer('company_id')->unsigned()->index();
-            $table->foreign('company_id')->references('id')->on('companies')->onDelete('cascade');
+            $table->foreign('company_id')->references('id')->on('companies');
             $table->integer('user_id')->unsigned()->index();
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->unique(['company_id', 'user_id']);
         });
     }
