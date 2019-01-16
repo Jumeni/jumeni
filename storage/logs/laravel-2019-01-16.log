@@ -1,6 +1,6 @@
 [2019-01-16 00:01:48] local.INFO: array (
   0 => 'v1.1/transaction/process',
-  1 => 
+  1 =>
   array (
     'amount' => '000000000100',
     'r-switch' => 'VIS',
@@ -17,16 +17,16 @@
     'card_holder' => 'Emmanuel Oduro',
     'customer_email' => 'emmanuel@jumeni.com',
   ),
-)  
+)
 [2019-01-16 00:02:01] local.CRITICAL: array (
   'status' => 'failed',
   'code' => 100,
   'reason' => 'Wrong expiration date<br>',
   'transaction_id' => '911468489862',
-)  
+)
 [2019-01-16 00:05:02] local.INFO: array (
   0 => 'v1.1/transaction/process',
-  1 => 
+  1 =>
   array (
     'amount' => '000000000100',
     'r-switch' => 'VIS',
@@ -43,16 +43,16 @@
     'card_holder' => 'Emmanuel Oduro',
     'customer_email' => 'emmanuel@jumeni.com',
   ),
-)  
+)
 [2019-01-16 00:05:13] local.CRITICAL: array (
   'status' => 'failed',
   'code' => 100,
   'reason' => 'Wrong expiration date<br>',
   'transaction_id' => '421047061600',
-)  
+)
 [2019-01-16 00:06:36] local.INFO: array (
   0 => 'v1.1/transaction/process',
-  1 => 
+  1 =>
   array (
     'amount' => '000000000100',
     'r-switch' => 'VIS',
@@ -69,22 +69,22 @@
     'card_holder' => 'Emmanuel Oduro',
     'customer_email' => 'emmanuel@jumeni.com',
   ),
-)  
+)
 [2019-01-16 00:06:44] local.CRITICAL: array (
   'status' => 'vbv required',
   'code' => 200,
   'reason' => 'https://test.theteller.net/v1.1/3ds/resource/authentication/154750601540',
   'transaction_id' => '730056305618',
-)  
+)
 [2019-01-16 00:06:47] local.ALERT: array (
   'status' => 'vbv required',
   'code' => 200,
   'reason' => 'https://test.theteller.net/v1.1/3ds/resource/authentication/154750601540',
   'transaction_id' => '730056305618',
-)  
+)
 [2019-01-16 14:15:04] local.INFO: array (
   0 => 'v1.1/transaction/process',
-  1 => 
+  1 =>
   array (
     'amount' => '000000000100',
     'r-switch' => 'MTN',
@@ -94,9 +94,9 @@
     'merchant_id' => 'TTM-00000086',
     'processing_code' => '000200',
   ),
-)  
+)
 [2019-01-16 14:15:08] local.DEBUG: array (
-  'body' => 
+  'body' =>
   array (
     'amount' => '000000000100',
     'r-switch' => 'MTN',
@@ -106,17 +106,17 @@
     'merchant_id' => 'TTM-00000086',
     'processing_code' => '000200',
   ),
-  'response' => 
+  'response' =>
   array (
     'status' => 'approved',
     'code' => '000',
     'reason' => 'Transaction successful!',
     'transaction_id' => '343553705364',
   ),
-)  
+)
 [2019-01-16 14:57:39] local.INFO: array (
   0 => 'v1.1/transaction/process',
-  1 => 
+  1 =>
   array (
     'amount' => '000000000100',
     'r-switch' => 'VIS',
@@ -133,22 +133,22 @@
     'card_holder' => 'Emmanuel Oduro',
     'customer_email' => 'emmanuel@jumeni.com',
   ),
-)  
+)
 [2019-01-16 14:57:49] local.CRITICAL: array (
   'status' => 'vbv required',
   'code' => 200,
   'reason' => 'https://test.theteller.net/v1.1/3ds/resource/authentication/154740149770',
   'transaction_id' => '127437276960',
-)  
+)
 [2019-01-16 14:57:51] local.ALERT: array (
   'status' => 'vbv required',
   'code' => 200,
   'reason' => 'https://test.theteller.net/v1.1/3ds/resource/authentication/154740149770',
   'transaction_id' => '127437276960',
-)  
+)
 [2019-01-16 17:09:29] local.INFO: array (
   0 => 'v1.1/transaction/process',
-  1 => 
+  1 =>
   array (
     'amount' => '000000000100',
     'r-switch' => 'VIS',
@@ -165,7 +165,7 @@
     'card_holder' => 'Emmanuel Oduro',
     'customer_email' => 'emmanuel@jumeni.com',
   ),
-)  
+)
 [2019-01-16 17:12:32] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
  (SQL: select * from information_schema.tables where table_schema = waste_management_dev and table_name = migrations) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
  (SQL: select * from information_schema.tables where table_schema = waste_management_dev and table_name = migrations) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
@@ -193,7 +193,7 @@
 #19 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #20 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #21 {main}
-"} 
+"}
 [2019-01-16 17:13:01] local.ERROR: SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table "role_user" ("role_id" integer not null, "user_id" integer not null, "created_at" datetime null, "updated_at" datetime null, foreign key("role_id") references "roles"("id") on delete cascade, foreign key("user_id") references "users"("id") on delete cascade, primary key ("id"))) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table \"role_user\" (\"role_id\" integer not null, \"user_id\" integer not null, \"created_at\" datetime null, \"updated_at\" datetime null, foreign key(\"role_id\") references \"roles\"(\"id\") on delete cascade, foreign key(\"user_id\") references \"users\"(\"id\") on delete cascade, primary key (\"id\"))) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
 [stacktrace]
 #0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table \"r...', Array, Object(Closure))
@@ -224,7 +224,7 @@
 #25 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #26 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2019-01-16 17:14:08] local.ERROR: SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table "role_user" ("role_id" integer not null, "user_id" integer not null, "created_at" datetime null, "updated_at" datetime null, foreign key("role_id") references "roles"("id") on delete cascade, foreign key("user_id") references "users"("id") on delete cascade, primary key ("id"))) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table \"role_user\" (\"role_id\" integer not null, \"user_id\" integer not null, \"created_at\" datetime null, \"updated_at\" datetime null, foreign key(\"role_id\") references \"roles\"(\"id\") on delete cascade, foreign key(\"user_id\") references \"users\"(\"id\") on delete cascade, primary key (\"id\"))) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
 [stacktrace]
 #0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table \"r...', Array, Object(Closure))
@@ -255,7 +255,7 @@
 #25 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #26 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2019-01-16 17:15:37] local.ERROR: SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table "role_user" ("role_id" integer not null, "user_id" integer not null, "created_at" datetime null, "updated_at" datetime null, foreign key("role_id") references "roles"("id"), foreign key("user_id") references "users"("id"), primary key ("id"))) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table \"role_user\" (\"role_id\" integer not null, \"user_id\" integer not null, \"created_at\" datetime null, \"updated_at\" datetime null, foreign key(\"role_id\") references \"roles\"(\"id\"), foreign key(\"user_id\") references \"users\"(\"id\"), primary key (\"id\"))) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
 [stacktrace]
 #0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table \"r...', Array, Object(Closure))
@@ -286,7 +286,7 @@
 #25 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #26 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2019-01-16 17:16:41] local.ERROR: SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table "role_user" ("role_id" integer not null, "user_id" integer not null, "created_at" datetime null, "updated_at" datetime null, foreign key("role_id") references "roles"("id"), foreign key("user_id") references "users"("id"), primary key ("id"))) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table \"role_user\" (\"role_id\" integer not null, \"user_id\" integer not null, \"created_at\" datetime null, \"updated_at\" datetime null, foreign key(\"role_id\") references \"roles\"(\"id\"), foreign key(\"user_id\") references \"users\"(\"id\"), primary key (\"id\"))) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
 [stacktrace]
 #0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table \"r...', Array, Object(Closure))
@@ -317,7 +317,7 @@
 #25 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #26 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2019-01-16 17:17:54] local.ERROR: SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table "role_user" ("role_id" integer not null, "user_id" integer not null, "created_at" datetime null, "updated_at" datetime null, foreign key("role_id") references "roles"("id"), foreign key("user_id") references "users"("id"), primary key ("id"))) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table \"role_user\" (\"role_id\" integer not null, \"user_id\" integer not null, \"created_at\" datetime null, \"updated_at\" datetime null, foreign key(\"role_id\") references \"roles\"(\"id\"), foreign key(\"user_id\") references \"users\"(\"id\"), primary key (\"id\"))) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
 [stacktrace]
 #0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table \"r...', Array, Object(Closure))
@@ -348,7 +348,7 @@
 #25 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #26 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2019-01-16 17:19:15] local.ERROR: SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table "role_user" ("role_id" integer not null, "user_id" integer not null, "created_at" datetime null, "updated_at" datetime null, foreign key("role_id") references "roles"("id"), foreign key("user_id") references "users"("id"), primary key ("id"))) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table \"role_user\" (\"role_id\" integer not null, \"user_id\" integer not null, \"created_at\" datetime null, \"updated_at\" datetime null, foreign key(\"role_id\") references \"roles\"(\"id\"), foreign key(\"user_id\") references \"users\"(\"id\"), primary key (\"id\"))) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
 [stacktrace]
 #0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table \"r...', Array, Object(Closure))
@@ -379,7 +379,7 @@
 #25 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #26 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2019-01-16 17:19:54] local.ERROR: SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table "role_user" ("role_id" integer not null, "user_id" integer not null, "created_at" datetime null, "updated_at" datetime null, foreign key("role_id") references "roles"("id"), foreign key("user_id") references "users"("id"), primary key ("id"))) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table \"role_user\" (\"role_id\" integer not null, \"user_id\" integer not null, \"created_at\" datetime null, \"updated_at\" datetime null, foreign key(\"role_id\") references \"roles\"(\"id\"), foreign key(\"user_id\") references \"users\"(\"id\"), primary key (\"id\"))) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
 [stacktrace]
 #0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table \"r...', Array, Object(Closure))
@@ -420,7 +420,7 @@
 #35 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #36 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #37 {main}
-"} 
+"}
 [2019-01-16 17:21:22] local.ERROR: SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table "role_user" ("role_id" integer null, "user_id" integer null, "created_at" datetime null, "updated_at" datetime null, foreign key("role_id") references "roles"("id"), foreign key("user_id") references "users"("id"), primary key ("id"))) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table \"role_user\" (\"role_id\" integer null, \"user_id\" integer null, \"created_at\" datetime null, \"updated_at\" datetime null, foreign key(\"role_id\") references \"roles\"(\"id\"), foreign key(\"user_id\") references \"users\"(\"id\"), primary key (\"id\"))) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
 [stacktrace]
 #0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table \"r...', Array, Object(Closure))
@@ -461,7 +461,7 @@
 #35 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #36 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #37 {main}
-"} 
+"}
 [2019-01-16 17:22:46] local.ERROR: SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table "role_user" ("user_id" integer not null, "created_at" datetime null, "updated_at" datetime null, foreign key("user_id") references "users"("id"), primary key ("id"))) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table \"role_user\" (\"user_id\" integer not null, \"created_at\" datetime null, \"updated_at\" datetime null, foreign key(\"user_id\") references \"users\"(\"id\"), primary key (\"id\"))) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
 [stacktrace]
 #0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table \"r...', Array, Object(Closure))
@@ -492,7 +492,7 @@
 #25 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #26 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2019-01-16 17:23:06] local.ERROR: SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table "role_user" ("created_at" datetime null, "updated_at" datetime null, primary key ("id"))) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table \"role_user\" (\"created_at\" datetime null, \"updated_at\" datetime null, primary key (\"id\"))) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
 [stacktrace]
 #0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table \"r...', Array, Object(Closure))
@@ -523,7 +523,7 @@
 #25 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #26 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2019-01-16 17:24:38] local.ERROR: SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table "company_user" ("created_at" datetime null, "updated_at" datetime null, "company_id" integer not null, "user_id" integer not null, foreign key("company_id") references "companies"("id"), foreign key("user_id") references "users"("id"), primary key ("id"))) {"exception":"[object] (Illuminate\\Database\\QueryException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints (SQL: create table \"company_user\" (\"created_at\" datetime null, \"updated_at\" datetime null, \"company_id\" integer not null, \"user_id\" integer not null, foreign key(\"company_id\") references \"companies\"(\"id\"), foreign key(\"user_id\") references \"users\"(\"id\"), primary key (\"id\"))) at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:664, PDOException(code: HY000): SQLSTATE[HY000]: General error: 1 expressions prohibited in PRIMARY KEY and UNIQUE constraints at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:452)
 [stacktrace]
 #0 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('create table \"c...', Array, Object(Closure))
@@ -554,10 +554,10 @@
 #25 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #26 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #27 {main}
-"} 
+"}
 [2019-01-16 17:25:21] local.INFO: array (
   0 => 'v1.1/transaction/process',
-  1 => 
+  1 =>
   array (
     'amount' => '000000000100',
     'r-switch' => 'VIS',
@@ -574,13 +574,13 @@
     'card_holder' => 'Emmanuel Oduro',
     'customer_email' => 'emmanuel@jumeni.com',
   ),
-)  
+)
 [2019-01-16 17:25:27] local.DEBUG: array (
   'status' => 'vbv required',
   'code' => 200,
   'reason' => 'https://test.theteller.net/v1.1/3ds/resource/authentication/154735543100',
   'transaction_id' => '665666956948',
-)  
+)
 [2019-01-16 17:27:31] local.ERROR: Command "horizon:install" is not defined.
 
 Did you mean one of these?
@@ -625,7 +625,7 @@ Did you mean one of these?
 #3 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #4 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #5 {main}
-"} 
+"}
 [2019-01-16 17:27:46] local.ERROR: Command "horizon:install" is not defined.
 
 Did you mean one of these?
@@ -670,7 +670,7 @@ Did you mean one of these?
 #3 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #4 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #5 {main}
-"} 
+"}
 [2019-01-16 17:28:33] local.ERROR: Call to undefined function Laravel\Horizon\Console\pcntl_async_signals() {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Call to undefined function Laravel\\Horizon\\Console\\pcntl_async_signals() at C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\horizon\\src\\Console\\HorizonCommand.php:56)
 [stacktrace]
 #0 [internal function]: Laravel\\Horizon\\Console\\HorizonCommand->handle()
@@ -688,4 +688,4 @@ Did you mean one of these?
 #12 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #13 C:\\Users\\MERSIE\\LaravelProjects\\jumeni2.0\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #14 {main}
-"} 
+"}

@@ -4,8 +4,115 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2915862043e795e20f4bdb891b32a82",
+    "content-hash": "82d7d89710381cdb6b600a0c877453e9",
     "packages": [
+        {
+            "name": "alexpechkarev/geometry-library",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexpechkarev/geometry-library.git",
+                "reference": "ebbf02c3e907e0bd19c9474fd5eb77b9ca1ce414"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexpechkarev/geometry-library/zipball/ebbf02c3e907e0bd19c9474fd5eb77b9ca1ce414",
+                "reference": "ebbf02c3e907e0bd19c9474fd5eb77b9ca1ce414",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GeometryLibrary\\": "/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Pechkarev",
+                    "email": "alexpechkarev@gmail.com"
+                }
+            ],
+            "description": "PHP Geometry library provides utility functions for the computation of geometric data on the surface of the Earth.",
+            "homepage": "https://alexpechkarev.github.io/geometry-library/",
+            "keywords": [
+                "computations polygons and polylines",
+                "encoding and decoding polyline paths utilities",
+                "google maps geometry library",
+                "php geometry library",
+                "spherical geometry utilities"
+            ],
+            "time": "2015-09-11T15:40:41+00:00"
+        },
+        {
+            "name": "alexpechkarev/google-maps",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexpechkarev/google-maps.git",
+                "reference": "fa6b843e2c89263f233c1ebaaa6603cbb7aed966"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexpechkarev/google-maps/zipball/fa6b843e2c89263f233c1ebaaa6603cbb7aed966",
+                "reference": "fa6b843e2c89263f233c1ebaaa6603cbb7aed966",
+                "shasum": ""
+            },
+            "require": {
+                "alexpechkarev/geometry-library": "1.0.0",
+                "illuminate/support": "5.*",
+                "jbroadway/urlify": "^1.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.7.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GoogleMaps\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Pechkarev",
+                    "email": "alexpechkarev@gmail.com"
+                }
+            ],
+            "description": "Collection of Google Maps API Web Services for Laravel",
+            "homepage": "https://alexpechkarev.github.io/google-maps/",
+            "keywords": [
+                "Google Maps API",
+                "directions api",
+                "distance matrix api",
+                "elevation api",
+                "geocoding api",
+                "geolocation api",
+                "google maps api for laravel",
+                "google maps web service for laravel",
+                "laravel google maps api",
+                "places api web service",
+                "roads api",
+                "time zone api"
+            ],
+            "time": "2018-01-09T18:23:57+00:00"
+        },
         {
             "name": "cakephp/chronos",
             "version": "1.2.3",
@@ -801,9 +908,12 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 1a7cb4a441c05e25bd9d4e736c396c6d05d36aca
             "name": "jbroadway/urlify",
             "version": "1.1.2-stable",
             "source": {
@@ -861,8 +971,11 @@
             "time": "2018-12-08T15:51:20+00:00"
         },
         {
+<<<<<<< HEAD
 >>>>>>> 6c909df46ff89ffcf6fe503793693c4373a42ecb
 >>>>>>> 3267c10b53d0e226dbb755eb2ed0e7cbb1d39cf8
+=======
+>>>>>>> 1a7cb4a441c05e25bd9d4e736c396c6d05d36aca
             "name": "jowusu837/hubtel-ussd-plugin-laravel",
             "version": "1.0.1",
             "source": {
