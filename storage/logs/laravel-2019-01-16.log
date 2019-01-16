@@ -1,0 +1,148 @@
+[2019-01-16 00:01:48] local.INFO: array (
+  0 => 'v1.1/transaction/process',
+  1 => 
+  array (
+    'amount' => '000000000100',
+    'r-switch' => 'VIS',
+    'transaction_id' => '911468489862',
+    'desc' => 'Card Payment Test',
+    'merchant_id' => 'TTM-00000086',
+    'processing_code' => '000000',
+    'pan' => '4012001037141112',
+    '3d_url_response' => 'https://jumeni.co/payswitch/callback',
+    'exp_month' => '27',
+    'exp_year' => '12',
+    'cvv' => '212',
+    'currency' => 'GHS',
+    'card_holder' => 'Emmanuel Oduro',
+    'customer_email' => 'emmanuel@jumeni.com',
+  ),
+)  
+[2019-01-16 00:02:01] local.CRITICAL: array (
+  'status' => 'failed',
+  'code' => 100,
+  'reason' => 'Wrong expiration date<br>',
+  'transaction_id' => '911468489862',
+)  
+[2019-01-16 00:05:02] local.INFO: array (
+  0 => 'v1.1/transaction/process',
+  1 => 
+  array (
+    'amount' => '000000000100',
+    'r-switch' => 'VIS',
+    'transaction_id' => '421047061600',
+    'desc' => 'Card Payment Test',
+    'merchant_id' => 'TTM-00000086',
+    'processing_code' => '000000',
+    'pan' => '4111111111111111',
+    '3d_url_response' => 'https://jumeni.co/payswitch/callback',
+    'exp_month' => '19',
+    'exp_year' => '12',
+    'cvv' => '123',
+    'currency' => 'GHS',
+    'card_holder' => 'Emmanuel Oduro',
+    'customer_email' => 'emmanuel@jumeni.com',
+  ),
+)  
+[2019-01-16 00:05:13] local.CRITICAL: array (
+  'status' => 'failed',
+  'code' => 100,
+  'reason' => 'Wrong expiration date<br>',
+  'transaction_id' => '421047061600',
+)  
+[2019-01-16 00:06:36] local.INFO: array (
+  0 => 'v1.1/transaction/process',
+  1 => 
+  array (
+    'amount' => '000000000100',
+    'r-switch' => 'VIS',
+    'transaction_id' => '730056305618',
+    'desc' => 'Card Payment Test',
+    'merchant_id' => 'TTM-00000086',
+    'processing_code' => '000000',
+    'pan' => '4111111111111111',
+    '3d_url_response' => 'https://jumeni.co/payswitch/callback',
+    'exp_month' => '12',
+    'exp_year' => '19',
+    'cvv' => '123',
+    'currency' => 'GHS',
+    'card_holder' => 'Emmanuel Oduro',
+    'customer_email' => 'emmanuel@jumeni.com',
+  ),
+)  
+[2019-01-16 00:06:44] local.CRITICAL: array (
+  'status' => 'vbv required',
+  'code' => 200,
+  'reason' => 'https://test.theteller.net/v1.1/3ds/resource/authentication/154750601540',
+  'transaction_id' => '730056305618',
+)  
+[2019-01-16 00:06:47] local.ALERT: array (
+  'status' => 'vbv required',
+  'code' => 200,
+  'reason' => 'https://test.theteller.net/v1.1/3ds/resource/authentication/154750601540',
+  'transaction_id' => '730056305618',
+)  
+[2019-01-16 14:15:04] local.INFO: array (
+  0 => 'v1.1/transaction/process',
+  1 => 
+  array (
+    'amount' => '000000000100',
+    'r-switch' => 'MTN',
+    'transaction_id' => '343553705364',
+    'subscriber_number' => '0241582764',
+    'desc' => 'Mobile Money Test',
+    'merchant_id' => 'TTM-00000086',
+    'processing_code' => '000200',
+  ),
+)  
+[2019-01-16 14:15:08] local.DEBUG: array (
+  'body' => 
+  array (
+    'amount' => '000000000100',
+    'r-switch' => 'MTN',
+    'transaction_id' => '343553705364',
+    'subscriber_number' => '0241582764',
+    'desc' => 'Mobile Money Test',
+    'merchant_id' => 'TTM-00000086',
+    'processing_code' => '000200',
+  ),
+  'response' => 
+  array (
+    'status' => 'approved',
+    'code' => '000',
+    'reason' => 'Transaction successful!',
+    'transaction_id' => '343553705364',
+  ),
+)  
+[2019-01-16 14:57:39] local.INFO: array (
+  0 => 'v1.1/transaction/process',
+  1 => 
+  array (
+    'amount' => '000000000100',
+    'r-switch' => 'VIS',
+    'transaction_id' => '127437276960',
+    'desc' => 'Card Payment Test',
+    'merchant_id' => 'TTM-00000086',
+    'processing_code' => '000000',
+    'pan' => '4111111111111111',
+    '3d_url_response' => 'https://jumeni.co/payswitch/callback',
+    'exp_month' => '12',
+    'exp_year' => '19',
+    'cvv' => '123',
+    'currency' => 'USD',
+    'card_holder' => 'Emmanuel Oduro',
+    'customer_email' => 'emmanuel@jumeni.com',
+  ),
+)  
+[2019-01-16 14:57:49] local.CRITICAL: array (
+  'status' => 'vbv required',
+  'code' => 200,
+  'reason' => 'https://test.theteller.net/v1.1/3ds/resource/authentication/154740149770',
+  'transaction_id' => '127437276960',
+)  
+[2019-01-16 14:57:51] local.ALERT: array (
+  'status' => 'vbv required',
+  'code' => 200,
+  'reason' => 'https://test.theteller.net/v1.1/3ds/resource/authentication/154740149770',
+  'transaction_id' => '127437276960',
+)  
